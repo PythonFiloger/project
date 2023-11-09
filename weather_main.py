@@ -2,6 +2,7 @@ import argparse
 import json
 import sys
 import datetime
+
 def setup():
     parser = argparse.ArgumentParser(description="weather forecast CLI")
     parser.add_argument("--all", action="store_true", help="Display all data")
